@@ -14,14 +14,11 @@ export function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2 animate-fade-in-left">
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center glow-blue hover-lift">
-              <Code2 className="w-5 h-5 text-primary-foreground" />
+            <div className="w-15 h-15">
+              <img src="/K-7.png" alt="KreoleTech Logo" width={80} height={80} />
             </div>
             <span className="text-xl font-bold text-foreground">KreoleTech</span>
           </div>
-          <Link href="/dashboard">
-            <button className="btn btn-primary">Go to Dashboard</button>
-          </Link>
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8 animate-fade-in-right">
             <a

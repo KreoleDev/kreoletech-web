@@ -21,8 +21,8 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2 animate-fade-in-up">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center glow-blue hover-lift">
-                <Code2 className="w-5 h-5 text-primary-foreground" />
+              <div className="w-15 h-15">
+                 <img src="/K-7.png" alt="KreoleTech Logo" width={80} height={80} />
               </div>
               <span className="text-xl font-bold text-foreground">KreoleTech</span>
             </div>
@@ -65,7 +65,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-border mt-12 pt-8 flex flex-col md:flex-row justify-between items-center animate-fade-in-up animate-delay-500">
-          <p className="text-muted-foreground text-sm">© 2024 KreoleTech. All rights reserved.</p>
+          <p className="text-muted-foreground text-sm">© 2025 KreoleTech. All rights reserved.</p>
           <p className="text-muted-foreground text-sm mt-4 md:mt-0">Powered by Innovation</p>
         </div>
       </div>

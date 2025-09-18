@@ -21,14 +21,6 @@ const projects = [
     image: "/salon-booking-app-interface.jpg",
   },
   {
-    title: "EduTrack Mobile",
-    description: "Student progress tracking app for educational institutions",
-    category: "Education",
-    icon: <Smartphone className="w-6 h-6" />,
-    link: "https://edutrack-demo.vercel.app",
-    image: "/education-tracking-mobile-app.jpg",
-  },
-  {
     title: "Food/Drinks",
     description: "Complete restaurant Website with online ordering and management features",
     category: "Food & Beverage",
@@ -43,14 +35,6 @@ const projects = [
     icon: <Monitor className="w-6 h-6" />,
     link: "https://timelessstrokes.vercel.app",
     image: "/misleniusart.png",
-  },
-  {
-    title: "PropertyHub",
-    description: "Real estate management and listing platform",
-    category: "Real Estate",
-    icon: <Globe className="w-6 h-6" />,
-    link: "https://property-hub-demo.vercel.app",
-    image: "/real-estate-platform.png",
   },
 ]
 
