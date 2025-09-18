@@ -17,7 +17,7 @@ const projects = [
     description: "Modern appointment booking and management system for beauty salons",
     category: "Beauty & Wellness",
     icon: <Monitor className="w-6 h-6" />,
-    link: "https://salon-booking-demo.vercel.app",
+    link: "https://salon-gilt.vercel.app/",
     image: "/salon-booking-app-interface.jpg",
   },
   {
@@ -29,11 +29,11 @@ const projects = [
     image: "/education-tracking-mobile-app.jpg",
   },
   {
-    title: "RestaurantOS",
-    description: "Complete restaurant management system with POS and inventory",
+    title: "Food/Drinks",
+    description: "Complete restaurant Website with online ordering and management features",
     category: "Food & Beverage",
     icon: <Globe className="w-6 h-6" />,
-    link: "https://restaurant-os-demo.vercel.app",
+    link: "https://el-vaquero.vercel.app/",
     image: "/restaurant-management-dashboard.png",
   },
   {
