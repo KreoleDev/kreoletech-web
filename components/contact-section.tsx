@@ -13,20 +13,14 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email Us",
-    details: "hello@kreoletech.com",
+    details: "kreoletech@gmail.com",
     description: "Send us an email anytime!",
   },
   {
     icon: Phone,
     title: "Call Us",
-    details: "+1 (555) 123-4567",
+    details: "+1 (970) 515-2510",
     description: "Mon-Fri from 8am to 5pm",
-  },
-  {
-    icon: MapPin,
-    title: "Visit Us",
-    details: "123 Tech Street, Digital City",
-    description: "Come say hello at our office",
   },
 ]
 

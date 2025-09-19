@@ -2,16 +2,10 @@ import { Code2, Github, Twitter, Linkedin, Mail } from "lucide-react"
 
 const footerLinks = {
   Services: ["Web Development", "Mobile Apps", "UI/UX Design", "Consulting", "Software Repair", "Custom Solutions"],
-  Company: ["About Us", "Our Team", "Careers", "Contact", "Blog", "Case Studies"],
-  Resources: ["Documentation", "Help Center", "Privacy Policy", "Terms of Service", "Cookie Policy", "Sitemap"],
+  Company: ["About Us", "Our Team", "Careers", "Contact"],
+  Resources: ["Privacy Policy", "Terms of Service", "Cookie Policy"],
 }
 
-const socialLinks = [
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Mail, href: "#", label: "Email" },
-]
 
 export function Footer() {
   return (
@@ -30,18 +24,6 @@ export function Footer() {
               Your trusted software gurus delivering exceptional digital experiences across all platforms. We transform
               ideas into powerful software solutions.
             </p>
-            <div className="flex space-x-4">
-              {socialLinks.map((social, index) => (
-                <a
-                  key={index}
-                  href={social.href}
-                  className={`w-10 h-10 bg-secondary rounded-lg flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors hover-lift animate-scale-in animate-delay-${(index + 1) * 100}`}
-                  aria-label={social.label}
-                >
-                  <social.icon className="w-5 h-5" />
-                </a>
-              ))}
-            </div>
           </div>
 
           {/* Links */}

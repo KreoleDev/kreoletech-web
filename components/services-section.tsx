@@ -77,11 +77,6 @@ export function ServicesSection() {
                   </li>
                 ))}
               </ul>
-
-              <Button variant="ghost" className="p-0 h-auto text-primary hover:text-primary/80 group">
-                Learn more
-                <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-              </Button>
             </Card>
           ))}
         </div>

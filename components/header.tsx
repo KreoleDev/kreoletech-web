@@ -13,12 +13,14 @@ export function Header() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-2 animate-fade-in-left">
-            <div className="w-15 h-15">
-              <img src="/K-7.png" alt="KreoleTech Logo" width={80} height={80} />
+          <Link href="/">
+            <div className="flex items-center space-x-2">
+              <div className="w-15 h-15">
+                <img src="/K-7.png" alt="KreoleTech Logo" width={80} height={80} />
+              </div>
+              <span className="text-xl font-bold text-foreground">KreoleTech</span>
             </div>
-            <span className="text-xl font-bold text-foreground">KreoleTech</span>
-          </div>
+          </Link>
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8 animate-fade-in-right">
             <a
@@ -39,7 +41,9 @@ export function Header() {
             >
               Contact
             </a>
-            <Button className="glow-blue hover-lift">Get Started</Button>
+           <a href="#contact">
+             <Button className="glow-blue hover-lift">Get Started</Button>
+           </a>
           </nav>
 
           {/* Mobile Menu Button */}

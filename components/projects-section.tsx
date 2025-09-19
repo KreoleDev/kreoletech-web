@@ -40,14 +40,14 @@ const projects = [
 
 export function ProjectsSection() {
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8">
+    <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            Try <span className="text-primary"> These Alredy Built Soluction</span>
+            Try <span className="text-primary"> These Already Built Solutions</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Explore some of the innovative solutions we've built thing about your business. Each project
+            Explore some of the innovative solutions we've built thinking about your business. Each project
             showcases our expertise in creating tailored software solutions.
           </p>
         </div>
@@ -98,16 +98,6 @@ export function ProjectsSection() {
           ))}
         </div>
 
-        <div className="text-center mt-12 animate-fade-in" style={{ animationDelay: "600ms" }}>
-          <p className="text-lg text-muted-foreground mb-6">Ready to see your project come to life?</p>
-          <a
-            href="#contact"
-            className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-3 rounded-lg font-semibold hover:bg-primary/90 transition-colors"
-          >
-            Start Your Project
-            <ExternalLink className="w-4 h-4" />
-          </a>
-        </div>
       </div>
     </section>
   )
